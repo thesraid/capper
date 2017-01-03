@@ -10,7 +10,7 @@
 # A script to take a pcap file, replace an IP with another IP and replay it over the network
 #
 # Usage:
-#       Put a PCAP file in the pcap directory
+#       Put a PCAP file in the pcap directory (From http://malware-traffic-analysis.net/ for example)
 #       Duplicate one of the lines at the bottom of this script and point it to your pcap
 #       Replace the IP at the end of the line with the IP in your pcap you want to subsitute for the local IP
 #       By defaul the local IP will be 192.168.250.13 unless changed at run time.
