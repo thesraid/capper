@@ -13,7 +13,7 @@
 #       Put a PCAP file in the pcap directory (From http://malware-traffic-analysis.net/ for example)
 #       Duplicate one of the lines at the bottom of this script and point it to your pcap
 #       Replace the IP at the end of the line with the IP in your pcap you want to subsitute for the local IP
-#       By defaul the local IP will be 192.168.250.13 unless changed at run time.
+#       By default the local IP will be 192.168.250.13 unless changed at run time.
 #
 #   Your PCAP                           Local IP variable       The IP in the PCAP you want to replace
 #   inject("pcaps/mail-cc.pcap",        ip,                     "192.168.56.103")
@@ -30,7 +30,7 @@ if len(sys.argv) == 2:
                 print " "
                 print " "
                 print "Default usage: capper.py"
-                print "Uses the IP address of eth0"
+                print "Uses the IP default address"
                 print " "
                 print " "
                 print "Custom IP usage: capper.py <IP>"
