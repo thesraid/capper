@@ -1,6 +1,1 @@
-{"oldlinuxip":"linuxhostname_ip", "oldwindowsip":"windowshostname_ip", "oldkaliip"kalihostname_ip", "oldgwip":"gwhostname_ip"}
-
-Old mac is what is being changed
-We use arp -a to get the mac of the host speicfied and swap it out
-
-We will also need tp swap out ips. Second file? 
+{"192.168.0.107":"1.2.3.4","192.168.0.111":"5.6.7.8"}
